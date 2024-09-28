@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>759</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferDefault</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-bottom-color: rgb(0, 0, 0);
+border-top-color: rgb(255, 0, 0);</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>610</y>
+     <width>851</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="Standard_Dialog">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>441</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="title">
+    <string>标准对话框</string>
+   </property>
+   <widget class="QPushButton" name="Open_File">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>打开单个文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Open_Files">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>打开多个文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Select_Colors">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>选择颜色</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Select_Font">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>200</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>选择字体</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Save_Files">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>120</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>保存文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Existed_Contents">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>选择已有目录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Process_Dialog">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>进度对话框</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="Standard_Input_Dialog">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>461</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-left-color: rgb(85, 170, 255);</string>
+   </property>
+   <property name="title">
+    <string>标准输入对话框QIputDialog</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="Input_Int">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>输入整数</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Input_Str">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::StrongFocus</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>输入字符串</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Input_Float">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>输入浮点数</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Setting_Selection_Input">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>130</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>条目选择输入</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>10</y>
+     <width>451</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>标准消息框 QMessageBox</string>
+   </property>
+   <widget class="QPushButton" name="Critical_Btn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>140</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>critical</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AboutQt_Btn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>250</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>aboutQt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="About_Btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>about</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Question_Btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>question</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Information_Btn">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>information</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Warning_Btn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>warning</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="Clear_Btn">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>470</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="text">
+    <string>清除文本框内容</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/HP/Desktop/pic/icon/Clear.ico</normaloff>C:/Users/HP/Desktop/pic/icon/Clear.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Exit_Btn">
+   <property name="geometry">
+    <rect>
+     <x>709</x>
+     <y>470</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>C:/Users/HP/Desktop/pic/png/exit.png</normaloff>C:/Users/HP/Desktop/pic/png/exit.png</iconset>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
